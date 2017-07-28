@@ -8,7 +8,7 @@ start = Time.now
     word_to_guess = data.sample
     shuffled_word = word_to_guess.chars.shuffle.join
     guessed = false
-    puts "What's the word: #{shuffled_word"
+    puts "What's the word: #{shuffled_word}"
 
     until guessed
         guess = gets.chomp
